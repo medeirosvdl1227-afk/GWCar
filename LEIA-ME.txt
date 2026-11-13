@@ -1,0 +1,17 @@
+SITE GWCAR - COMO PUBLICAR NA VERCEL
+
+Esta pasta e o site completo (HTML, CSS, JS e imagens). Nao precisa de instalacao nem de build.
+
+1) PUBLICAR
+   Opcao A (pelo GitHub): crie um repositorio, envie o CONTEUDO desta pasta (index.html, assets, sobre, privacidade, ...)
+   e, na Vercel, use Add New > Project > Import. Framework: Other. Deixe o build command vazio.
+   Opcao B (pelo computador): abra a pasta no terminal e rode:  npx vercel --prod
+
+2) DOMINIO (Registro.br)
+   Na Vercel: Settings > Domains > Add. Copie os registros que a Vercel mostrar e cadastre em
+   Registro.br > Editar zona (DNS). Costuma ser um registro A para o dominio principal e um CNAME para o www.
+
+3) DEPOIS QUE O DOMINIO ESTIVER NO AR
+   Troque SEU-DOMINIO.com.br pelo dominio real nos arquivos index.html, sobre/index.html, privacidade/index.html
+   e sitemap.xml/robots.txt (ou peca para regenerar o site com o dominio).
+   Depois cadastre o site no Google Search Console e coloque o link no Google Meu Negocio e no Instagram.
