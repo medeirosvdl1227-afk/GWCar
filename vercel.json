@@ -1,9 +1,9 @@
 {
-  "cleanUrls": false,
-  "trailingSlash": true,
+  "cleanUrls": true,
+  "trailingSlash": false,
   "headers": [
     {
-      "source": "/assets/(.*)",
+      "source": "/(.*)\\.(webp|jpg|png|css|js)",
       "headers": [
         {
           "key": "Cache-Control",
