@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gwcar.com.br/sitemap.xml
+Sitemap: https://www.gwcar.com.br/sitemap.xml
